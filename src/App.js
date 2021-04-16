@@ -35,7 +35,7 @@ function App() {
       }}
     >
       {/* <XAxis dataKey="name" tick={{fontSize: 20}}/> */}
-      <XAxis />
+      <XAxis dataKey="name"/>
       <YAxis />
       <Tooltip />
       <Legend />
