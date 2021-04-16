@@ -1,0 +1,53 @@
+{ "data": [
+    {
+      "name": "A",
+      "Velocity": 4000,
+      "Shoulder Rotation": 2400,
+      "Elbow Flexion": 2400,
+      "Arm Slot": 5000
+      
+    },
+    {
+      "name": "B",
+      "Velocity": 3000,
+      "Shoulder Rotation": 1398,
+      "Elbow Flexion": 2210,
+      "Arm Slot": 4000
+    },
+    {
+      "name": "C",
+      "Velocity": 2000,
+      "Shoulder Rotation": 9800,
+      "Elbow Flexion": 2290,
+      "Arm Slot": 5450
+    },
+    {
+      "name": "D",
+      "Velocity": 2780,
+      "Shoulder Rotation": 3908,
+      "Elbow Flexion": 2000,
+      "Arm Slot": 4500
+    },
+    {
+      "name": "E",
+      "Velocity": 1890,
+      "Shoulder Rotation": 4800,
+      "Elbow Flexion": 2181,
+      "Arm Slot": 6500
+    },
+    {
+      "name": "F",
+      "Velocity": 2390,
+      "Shoulder Rotation": 3800,
+      "Elbow Flexion": 2500,
+      "Arm Slot": 1000
+    },
+    {
+      "name": "G",
+      "Velocity": 3490,
+      "Shoulder Rotation": 4300,
+      "Elbow Flexion": 2100,
+      "Arm Slot": 2000
+    }
+  ]
+}
