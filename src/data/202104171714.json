@@ -1,0 +1,27 @@
+{ "data": [
+    {
+        "Velocity": 30,
+        "Shoulder Rotation": 130,
+        "Elbow Flexion": 90,
+        "Arm Slot": 22
+    },
+    {
+        "Velocity": 32,
+        "Shoulder Rotation": 127,
+        "Elbow Flexion": 88,
+        "Arm Slot": 30
+    },
+    {
+        "Velocity": 28,
+        "Shoulder Rotation": 120,
+        "Elbow Flexion": 104,
+        "Arm Slot": 19
+    },
+    {
+        "Velocity": 40,
+        "Shoulder Rotation": 140,
+        "Elbow Flexion": 110,
+        "Arm Slot": 30
+    }
+]
+}
