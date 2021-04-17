@@ -12,7 +12,7 @@ import {
 
 
 function loadData() {
-  return require('./data/202104152217.json');
+  return require('./data/202104171736.json');
 }
 function App() {
   const [data, setNewData] = useState(loadData().data);
@@ -35,7 +35,7 @@ function App() {
       }}
     >
       {/* <XAxis dataKey="name" tick={{fontSize: 20}}/> */}
-      <XAxis dataKey="name"/>
+      <XAxis />
       <YAxis />
       <Tooltip />
       <Legend />

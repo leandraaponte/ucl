@@ -1,6 +1,6 @@
 { "data": [
     {
-      "name": "A",
+      
       "Velocity": 4000,
       "Shoulder Rotation": 2400,
       "Elbow Flexion": 2400,
@@ -8,10 +8,10 @@
       
     },
     {
-      "name": "B",
-      "Velocity": 3000,
-      "Shoulder Rotation": 1398,
-      "Elbow Flexion": 2210,
+      
+      "Velocity": 4000,
+      "Shoulder Rotation": 1498,
+      "Elbow Flexion": 2200,
       "Arm Slot": 4000
     },
     {
@@ -19,7 +19,7 @@
       "Velocity": 2000,
       "Shoulder Rotation": 9800,
       "Elbow Flexion": 2290,
-      "Arm Slot": 5450
+      "Arm Slot": 6450
     },
     {
       "name": "D",
