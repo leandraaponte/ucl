@@ -1,6 +1,6 @@
 { "data": [
 {"Time":0.1,"Velocity":0.167211482,"Shoulder Rotation":88.88680638,"Elbow Flexion":7.36440089,"Arm Slot":-4.788246061},
-{"Time":0.1,"Velocity":0.08005203,"Shoulder Rotation":87.43103651,"Elbow Flexion":9.158203653,"Arm Slot":-4.922245408},
+{"Time":0.1,"Velocity":0.080052032,"Shoulder Rotation":87.43103651,"Elbow Flexion":9.158203653,"Arm Slot":-4.922245408},
 {"Time":0.2,"Velocity":0.045272807,"Shoulder Rotation":87.44943362,"Elbow Flexion":9.248025764,"Arm Slot":-4.81067939},
 {"Time":0.2,"Velocity":0.071793706,"Shoulder Rotation":87.48345479,"Elbow Flexion":9.25064941,"Arm Slot":-4.777958942},
 {"Time":0.3,"Velocity":0.07874497,"Shoulder Rotation":87.49058252,"Elbow Flexion":9.234566449,"Arm Slot":-4.765614229},
