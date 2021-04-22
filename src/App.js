@@ -12,7 +12,7 @@ import {
 
 
 function loadData() {
-  return require('./data/mock2.0.json');
+  return require('./data/mock.json');
 }
 function App() {
   const [data, setNewData] = useState(loadData().data);
