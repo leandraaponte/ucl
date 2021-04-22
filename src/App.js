@@ -12,7 +12,7 @@ import {
 
 
 function loadData() {
-  return require('./data/202104171736.json');
+  return require('./data/mock2.0.json');
 }
 function App() {
   const [data, setNewData] = useState(loadData().data);
@@ -35,8 +35,8 @@ function App() {
       }}
     >
       {/* <XAxis dataKey="name" tick={{fontSize: 20}}/> */}
-      <XAxis />
-      <YAxis />
+      <XAxis dataKey="Time" tick={{fontSize: 11,  stroke: 'white'}} label={{ value: "Time (sec)", fontSize: 17, position: "insideBottom", dy: 9, stroke: 'white' }}/>
+      <YAxis tick={{fontSize: 18, stroke: 'white'}}/>
       <Tooltip />
       <Legend />
       <Line type="monotone" dot={false} dataKey="Velocity" stroke="#8884d8" />
