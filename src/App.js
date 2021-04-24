@@ -12,7 +12,7 @@ import {
 
 
 function loadData() {
-  return require('./data/mock.json');
+  return require('./data/mock2.0.json');
 }
 function App() {
   const [data, setNewData] = useState(loadData().data);
@@ -36,10 +36,27 @@ function App() {
     >
       {/* <XAxis dataKey="name" tick={{fontSize: 20}}/> */}
       <XAxis dataKey="Time" tick={{fontSize: 11,  stroke: 'white'}} label={{ value: "Time (sec)", fontSize: 17, position: "insideBottom", dy: 9, stroke: 'white' }}/>
-      <YAxis tick={{fontSize: 18, stroke: 'white'}}/>
+      <YAxis tick={{fontSize: 18, stroke: 'white'}}label={{ value: "Velocity (miles/sec)", fontSize: 17, position: "leftup", angle:-90, dx:-12, stroke: 'white' }}/>
       <Tooltip />
       <Legend />
       <Line type="monotone" dot={false} dataKey="Velocity" stroke="#8884d8" />
+    </LineChart>
+    <LineChart
+      width={500}
+      height={300}
+      data={data}
+      margin={{
+        top: 5,
+        right: 30,
+        left: 20,
+        bottom: 5
+      }}
+    >
+      {/* <XAxis dataKey="name" tick={{fontSize: 20}}/> */}
+      <XAxis dataKey="Time" tick={{fontSize: 11,  stroke: 'white'}} label={{ value: "Time (sec)", fontSize: 17, position: "insideBottom", dy: 9, stroke: 'white' }}/>
+      <YAxis tick={{fontSize: 18, stroke: 'white'}} label={{ value: "Angle Rotation (deg)", fontSize: 17, position: "leftup", angle:-90, dx:-12, stroke: 'white' }}/>
+      <Tooltip />
+      <Legend />
       <Line type="monotone" dot={false} dataKey="Shoulder Rotation" stroke="#82ca9d" />
       <Line type="monotone" dot={false} dataKey="Elbow Flexion" stroke="#ff0000" />
       <Line type="monotone" dot={false} dataKey="Arm Slot" stroke="#FFA500" />
@@ -49,6 +66,7 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
 
